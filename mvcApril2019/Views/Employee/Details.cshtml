@@ -1,0 +1,44 @@
+﻿@model mvcApril2019.Models.Employee
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2 style="">Details</h2>
+
+<table>
+    <tr style="display:none;">
+        <td>
+            <b>Employee ID : </b>
+        </td>
+        <td>
+            @Model.EmployeeId
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Name : </b>
+        </td>
+        <td>
+            @Model.Name
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Gender : </b>
+        </td>
+        <td>
+            @Model.Gender
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>City : </b>
+        </td>
+        <td>
+            @Model.City
+        </td>
+    </tr>
+</table>
+
+@Html.ActionLink("Back to list", "Index", new { DepartmentID = Model.DepartmentID})

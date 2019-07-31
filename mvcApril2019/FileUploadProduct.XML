@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>  
+<products>  
+  <product>  
+    <id>1</id>  
+    <name>Mobele Phone</name>  
+    <price>12000</price>  
+    <quantity>2</quantity>  
+  </product>  
+  <product>  
+    <id>2</id>  
+    <name>Hand Watch</name>  
+    <price>1200</price>  
+    <quantity>5</quantity>  
+  </product>  
+  <product>  
+    <id>3</id>  
+    <name>T-Shirt</name>  
+    <price>499</price>  
+    <quantity>2</quantity>  
+  </product>  
+  <product>  
+    <id>4</id>  
+    <name>Shoe</name>  
+    <price>999</price>  
+    <quantity>2</quantity>  
+  </product>  
+  <product>  
+    <id>5</id>  
+    <name>Jeans</name>  
+    <price>999</price>  
+    <quantity>2</quantity>  
+  </product>  
+</products>  
